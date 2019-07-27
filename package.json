@@ -1,0 +1,53 @@
+{
+  "name": "itsp_form_client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx webpack-dev-server --open --colors --hot --mode development",
+    "start": "npx http-server ./lib",
+    "build": "npm run test && npx webpack --mode production",
+    "test": "npx jest --config=jest.config.json"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.5.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "styled-components": "^4.3.2",
+    "typescript": "^3.5.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/plugin-external-helpers": "7.2.0",
+    "@babel/plugin-proposal-class-properties": "7.4.0",
+    "@babel/plugin-proposal-object-rest-spread": "7.4.3",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/preset-env": "7.4.3",
+    "@babel/preset-react": "7.0.0",
+    "@babel/preset-typescript": "7.3.3",
+    "@types/enzyme": "3.9.1",
+    "@types/enzyme-adapter-react-16": "1.0.5",
+    "@types/jest": "24.0.11",
+    "@types/react": "^16.8.23",
+    "@types/react-dom": "16.8.3",
+    "@types/react-test-renderer": "^16.8.2",
+    "@types/styled-components": "4.1.18",
+    "babel-loader": "8.0.5",
+    "babel-plugin-styled-components": "1.10.0",
+    "enzyme": "3.9.0",
+    "enzyme-adapter-react-16": "1.12.1",
+    "enzyme-to-json": "3.3.5",
+    "html-webpack-plugin": "3.2.0",
+    "http-server": "^0.11.1",
+    "jest": "24.7.1",
+    "jest-styled-components": "^6.3.3",
+    "react-test-renderer": "^16.8.6",
+    "source-map-loader": "0.2.4",
+    "styled-components-ts": "^0.0.15",
+    "ts-jest": "24.0.2",
+    "webpack": "4.29.6",
+    "webpack-cli": "3.3.0",
+    "webpack-dev-server": "3.2.1",
+    "webpack-hot-middleware": "2.24.3"
+  }
+}

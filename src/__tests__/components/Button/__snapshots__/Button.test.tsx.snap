@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders correctly 1`] = `
+.c0 {
+  background: black;
+  color: #fff;
+  border: 0;
+  padding: 7px 10px;
+}
+
+<div
+  className="Button"
+>
+  <button
+    className="c0"
+    onClick={[Function]}
+  >
+    Submit
+  </button>
+</div>
+`;
