@@ -17,5 +17,6 @@
     ],
     "emmet.syntaxProfiles": {
         "javascript": "tsx"
-    }
+    },
+    "typescript.tsdk": "node_modules/typescript/lib"
 }

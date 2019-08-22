@@ -8,7 +8,7 @@ const StyledApp = () => {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
   `;
 
   return (
@@ -20,4 +20,4 @@ const StyledApp = () => {
     </div>
   );
 };
-export default StyledApp ;
+export default StyledApp;
